@@ -134,3 +134,56 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* CTA Section */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+        width: 70%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+        width: 100%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
